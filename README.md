@@ -22,7 +22,7 @@ PROCESS RECEPTOR INPUT FILE
    
 PREPARE TO DOCK- Conf.txt   
 -contains all parameters for docking such as search exhaustiveness...etc   
--also contains parameters for search box that specifies center of search in x,y,z coordinates as well as size of search box in angstroms     
+-also contains parameters for search box that specifies center of search in x,y,z coordinates (adt) as well as size of search box in angstroms (replace spacing in adt grid options to 1.00 to get units in angstroms -- replaces grid parameter file GPF in Autodock4)
     
 TO DOCK- LOCAL WORKSTATION (Ubuntu 16.04):    
 -run my script vina_screen.sh (originally downloaded from Autodock Vina developers, modified to include time remaining, elapsed...etc calculations to keep track of docking times)      
