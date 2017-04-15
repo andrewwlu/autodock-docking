@@ -1,0 +1,12 @@
+receptor = 4dkl-clean.pdbqt
+
+center_x =  -25.858
+center_y =  -14.376
+center_z = -15.037
+
+size_x = 26
+size_y = 26
+size_z = 26
+
+num_modes = 9
+exhaustiveness = 2
