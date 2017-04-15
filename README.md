@@ -24,10 +24,10 @@ PREPARE TO DOCK- Conf.txt
 -contains all parameters for docking such as search exhaustiveness...etc   
 -also contains parameters for search box that specifies center of search in x,y,z coordinates as well as size of search box in angstroms     
     
-To dock (Ubuntu 16.04):    
+TO DOCK- LOCAL WORKSTATION (Ubuntu 16.04):    
 -run my script vina_screen.sh (originally downloaded from Autodock Vina developers, modified to include time remaining, elapsed...etc calculations to keep track of docking times)      
      
-To dock with linux cluster:    
+TO DOCK- LINUX CLUSTER
 "PBS Cluster: If you have a Linux Beowulf cluster, you can perform the individual dockings in parallel. Run this shell script (included in my scripts folder,vina_screen_pbs) to do it. The script assumes that vina and qsub are in your PATH. Otherwise, modify it accordingly.Once the jobs have been scheduled, you can monitor their status with qstat -u `whoami`" 
 http://vina.scripps.edu/manual.html#screening
 
